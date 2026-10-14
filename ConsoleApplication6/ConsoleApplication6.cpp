@@ -21,6 +21,9 @@ int main()
     ptr = &a;
 
     std::cout << *ptr << "\n";
+
+    delete ptr;
+    ptr = nullptr;
     
     
   
